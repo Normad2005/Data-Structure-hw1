@@ -20,10 +20,6 @@ int cmp(const void *a, const void *b){
 	return -(pa.pior - pb.pior);
 }
 
-void init(){
-	f = r = cur = 0;
-}
-
 void deq(){
 	Process p = q[f];
 	f = (f+1)%qsize;

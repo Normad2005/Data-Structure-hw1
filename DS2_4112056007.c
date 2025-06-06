@@ -4,10 +4,7 @@
 #define qsize 15000
 
 typedef struct Process{
-	int id;
-	int arr;
-	int time;
-	int pior;
+	int id, arr, time, pior;
 }Process;
 
 Process q[qsize];
